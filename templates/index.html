@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Light Controls</title>
+        <link rel="stylesheet" href="/static/styles.css">
+        <script src="https://cdn.jsdelivr.net/npm/tinycolor2@1.4.1/tinycolor.js"></script>
+        <script type="text/javascript" src="/static/script.js"></script>
+    </head>
+<body>
+    <div class="card bed1">
+      <div class="card-header">
+        <h2 class="card-title">Bed1</h2>
+      </div>
+      <div class="card-body">
+        <div class="card-buttons">
+          <button class="on-button" onclick="turnOn('arman')">ON</button>
+          <button class="off-button" onclick="turnOff('arman')">OFF</button>
+        </div>
+        <div class="card-slider">
+          <input type="range" min="0" max="254" value="127" class="slider" onchange="setBrightness('arman', this.value)">
+        </div>
+        <div class="card-color-picker">
+          <input type="color" onchange="setColor('arman', this.value)">
+        </div>
+      </div>
+    </div>
+
+    <div class="card hallway">
+      <div class="card-header">
+        <h2 class="card-title">Hallway</h2>
+      </div>
+      <div class="card-body">
+        <div class="card-buttons">
+          <button class="on-button" onclick="turnOn('hallway')">ON</button>
+          <button class="off-button" onclick="turnOff('hallway')">OFF</button>
+        </div>
+        <div class="card-slider">
+          <input type="range" min="0" max="254" value="127" class="slider" onchange="setBrightness('hallway', this.value)">
+        </div>
+        <div class="card-color-picker">
+          <input type="color" onchange="setColor('hallway', this.value)">
+        </div>
+      </div>
+    </div>
+
+    <div class="card bed2">
+      <div class="card-header">
+        <h2 class="card-title">Bed2</h2>
+      </div>
+      <div class="card-body">
+        <div class="card-buttons">
+          <button class="on-button" onclick="turnOn('imran')">ON</button>
+          <button class="off-button" onclick="turnOff('imran')">OFF</button>
+        </div>
+        <div class="card-slider">
+          <input type="range" min="0" max="254" value="127" class="slider" onchange="setBrightness('imran', this.value)">
+        </div>
+        <div class="card-color-picker">
+          <input type="color" onchange="setColor('imran', this.value)">
+        </div>
+      </div>
+    </div>
+
+    <div class="card kitchen">
+      <div class="card-header">
+        <h2 class="card-title">Kitchen</h2>
+      </div>
+      <div class="card-body">
+        <div class="card-buttons">
+          <button class="on-button" onclick="turnOn('kitchen')">ON</button>
+          <button class="off-button" onclick="turnOff('kitchen')">OFF</button>
+        </div>
+        <div class="card-slider">
+          <input type="range" min="0" max="254" value="127" class="slider" onchange="setBrightness('kitchen', this.value)">
+        </div>
+        <div class="card-color-picker">
+          <input type="color" onchange="setColor('kitchen', this.value)">
+        </div>
+      </div>
+    </div>
+
+
+</body>
+</html>
