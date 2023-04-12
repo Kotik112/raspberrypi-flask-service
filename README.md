@@ -6,7 +6,7 @@ Make sure you have Python 3.7 or later installed on your system.
 Install the required dependencies by running:
 - pip install phue
 - pip install Flask
-Replace BRIDGE_IP and USERNAME in the Bridge class with the IP address and username of your Philips Hue Bridge.
+Replace BRIDGE_IP and USERNAME in the `utils/Bridge` class with the IP address and username of your Philips Hue Bridge.
 Run the application by navigating to the project root in command prompt and executing 'flask run'.
 Access the application by navigating to http://localhost:5000 in your web browser.
 
