@@ -26,8 +26,6 @@ The Bridge class is used to control the lights connected to the Philips Hue Brid
 ## Dependencies
 - flask
 - phue
-- utils.Bridge
-- utils.helpers
 
 ## Additional notes
 The Bridge class is a subclass of the phue library's Bridge class and extends its functionality to include additional methods for controlling the lights.
